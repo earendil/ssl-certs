@@ -37,8 +37,8 @@ class CertGen(object):
         print("create_cert_authority")
         subject_and_issuer = x509.Name([
             x509.NameAttribute(NameOID.COUNTRY_NAME, u"UK"),
-            x509.NameAttribute(NameOID.LOCALITY_NAME, u"Leeds"),
-            x509.NameAttribute(NameOID.ORGANIZATION_NAME, u"Appcheck-NG"),
+            x509.NameAttribute(NameOID.LOCALITY_NAME, u"London"),
+            x509.NameAttribute(NameOID.ORGANIZATION_NAME, u"ORG"),
             x509.NameAttribute(NameOID.COMMON_NAME, subject),
         ])
 
